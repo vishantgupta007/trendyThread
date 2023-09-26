@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Trendy Threads</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header>
+			<section class="upper-header">
+				<div class="flag">
+					<img src="./images/download.png" width="30px" height="" 30px />
+					<span>EN</span>
+					<i class="fa-solid fa-chevron-down"></i>
+				</div>
+				<div class="address">
+					<i class="fa-solid fa-location-dot"></i>
+					<span>Select your address</span>
+					<input type="text" placeholder="Your address..." />
+					<span> <i class="fa-solid fa-magnifying-glass"></i></span>
+				</div>
+				<div class="more-icons">
+					<span><i class="fa-solid fa-magnifying-glass"></i></span>
+					<span class="login-user"><i class="fa-regular fa-user"></i></span>
+					<span
+						><a href="wishlist.html"><i class="fa-regular fa-heart"></i></a
+					></span>
+				</div>
+			</section>
+			<section id="header">
+				<a href="index.html" class="logo">
+					<span class="main-logo">TRENDY </span>
+					<span class="side-logo">THREADS</span>
+
+					<!-- Navbar -->
+					<div>
+						<ul id="navbar">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="shop.html">Shop</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a class="active" href="contact.html">Contact</a></li>
+
+							<a href="#" id="cross"><i class="fa-solid fa-xmark"></i></a>
+						</ul>
+
+						<div class="mobile">
+							<!-- <a class="bag"><i class="fa fa-shopping-bag"></i></a> -->
+							<i id="hambar" class="fa fa-bars"></i>
+						</div>
+					</div>
+				</a>
+			</section>
+		</header>
+		<div class="login-wrapper">
+			<div id="wrapper">
+				<span class="close-login"><i class="fa-solid fa-xmark"></i></span>
+				<div class="form-box">
+					<h2>Login</h2>
+					<form action="#">
+						<div class="input-box">
+							<span class="icon"><i class="fa-solid fa-envelope"></i></span>
+							<input type="email" />
+							<label>E-mail</label>
+						</div>
+						<div class="input-box">
+							<span class="icon"><i class="fa-solid fa-lock"></i></span>
+							<input type="password" />
+							<label>Password</label>
+						</div>
+						<div class="remember-forgot">
+							<label><input type="checkbox" />Remember-me</label>
+							<a href="#">Forgot Password?</a>
+						</div>
+						<span
+							><button type="submit" class="submit-btn">Login</button>
+						</span>
+						<div class="login-registration">
+							<p>Don't have an account?</p>
+							<a href="#" register-link>Register</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- Hero Section -->
+
+		<section id="page-header" class="about-header">
+			<h2><span class="hash">#</span>let's_talk</h2>
+
+			<p>LEAVE A MESSAGE. We love to hear from you.</p>
+		</section>
+
+		<section id="contact-details" class="section-p1">
+			<div class="details">
+				<span>GET IN TOUCH</span>
+				<h2>Visit one of our agency locations or contact us today </h2>
+				<h3>Head Office</h3>
+				<div>
+					<li>
+						<i class="fa-solid fa-location-dot"></i>
+						<p>6, Neelkant Apt, Amar Mahal, Tilak Nagar, Chembur, Mumbai </p>
+					</li>
+					<li>
+						<i class="far fa-envelope"></i>
+						<p>contact@gamil.com</p>
+					</li>
+					<li>
+						<i class="fas fa-phone-alt"></i>
+						<p>+01 2222 333/ (+91) 9123334455 </p>
+					</li>
+					<li>
+						<i class="far fa-clock"></i>
+						<p>Monday to Saturday: 9am - 18pm </p>
+					</li>
+				</div>
+			</div>
+			<div class="map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60338.4803271278!2d72.85143532739751!3d19.056920655292842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c5ede708d39d%3A0xd81ae764fa3f136d!2sChembur%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1690612395271!5m2!1sen!2sin"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</div>
+		</section>
+
+		<!-- CONTACT CONTENT -->
+
+		<section id="form-details">
+			<form>
+				<input type="text" placeholder="Your Name..." />
+				<input type="text" placeholder="e-mail..." />
+				<input type="text" placeholder="Subject..." />
+				<textarea
+					name=""
+					id=""
+					cols="30"
+					rows="10"
+					placeholder="Your Message"
+				></textarea>
+				<button class="normal">Submit</button>
+			</form>
+			<div class="people">
+				<div>
+					<img src="./images/1.png" alt="person-1" />
+					<p
+						><span>John Doe</span><br />Senior Marketing Manager <br />phone:
+						+00 123 4568899<br />Email: johndoe@email.com</p
+					>
+				</div>
+				<div>
+					<img src="./images/2.png" alt="person-2" />
+					<p
+						><span>William Smith</span><br />Grievance Handler <br />phone: +00
+						123 4568899<br />Email: willsmith@email.com</p
+					>
+				</div>
+				<div>
+					<img src="./images/3.png" alt="person-3" />
+					<p
+						><span>Emma Stone</span><br />Product Manager <br />phone: +00 123
+						4568899<br />Email: stoneemma@email.com</p
+					>
+				</div>
+			</div>
+		</section>
+
+		<!-- Newletter -->
+
+		<section id="newsletter" classs="section-p1">
+			<div class="newtext">
+				<h4>SignUp for Newsletter </h4>
+				<p
+					>Get E-mail updates about our latest shop and
+					<span>special-offers</span></p
+				>
+			</div>
+			<div class="form">
+				<input type="text" placeholder="e-mail..." />
+				<button class="normal">Sign up </button>
+			</div>
+		</section>
+
+		<!-- Footer -->
+
+		<footer class="section-p1">
+			<div class="col col-1">
+				<span>TRENDY THREADS</span>
+				<h4>Contacts</h4>
+				<p>
+					<strong>Address:</strong> 6, Neelkant Apt, Amar Mahal, Tilak Nagar,
+					Chembur, Mumbai
+				</p>
+				<p style="font-weight: 600">
+					<strong>Phone: </strong>+01 2222 333/ (+91) 9123334455
+				</p>
+				<div class="follow">
+					<h4>Follow Us</h4>
+					<div class="icons">
+						<i class="fa-brands fa-facebook-f"></i>
+						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-pinterest"></i>
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-brands fa-google"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="col col-2">
+				<h4>About</h4>
+				<a href="#">About</a>
+				<a href="#">Delivery Information</a>
+				<a href="#">Privacy Policy</a>
+				<a href="#">Terms & Condition</a>
+				<a href="#">Contact Us</a>
+			</div>
+
+			<div class="col col-3">
+				<h4>Account</h4>
+				<a href="#">Sign In</a>
+				<a href="#">View Cart</a>
+				<a href="#">My WishList</a>
+				<a href="#">Track my Order</a>
+				<a href="#">Help</a>
+			</div>
+
+			<div class="col col-4 install">
+				<h4>Install App</h4>
+				<p style="font-size: 14px">From App Store & Google Play</p>
+				<div class="row">
+					<img src="./images/play.jpg" />
+					<img src="./images/app.jpg" />
+				</div>
+				<p>Secured Payment Gateways</p>
+				<img class="payment" src="./images/payment.webp" />
+			</div>
+
+			<div class="copyright">
+				<p>&copy; 2023, Trendy's all rights are reserved</p>
+			</div>
+		</footer>
+	</body>
+	<script src="shop.js"></script>
+</html>

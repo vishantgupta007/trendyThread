@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Trendy Threads</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header>
+			<section class="upper-header">
+				<div class="flag">
+					<img src="./images/download.png" width="30px" height="25px" alt="" />
+					<span>EN</span>
+					<i class="fa-solid fa-chevron-down"></i>
+				</div>
+				<div class="address">
+					<i class="fa-solid fa-location-dot"></i>
+					<span><h5>Select your address</h5></span>
+					<input type="text" placeholder="Your address..." />
+					<span> <i class="fa-solid fa-magnifying-glass"></i></span>
+				</div>
+				<div class="more-icons">
+					<span> <i class="fa-solid fa-magnifying-glass"></i></span>
+					<span class="login-user"><i class="fa-regular fa-user"></i></span>
+					<span
+						><a href="wishlist.html"><i class="fa-regular fa-heart"></i></a
+					></span>
+				</div>
+			</section>
+
+			<section id="header">
+				<a href="index.html" class="logo">
+					<span class="main-logo">TRENDY </span>
+					<span class="side-logo">THREADS</span>
+
+					<!-- Navbar -->
+					<div>
+						<ul id="navbar">
+							<li><a class="active" href="index.html">Home</a></li>
+							<li><a href="shop.html">Shop</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+
+							<a href="#" id="cross"><i class="fa-solid fa-xmark"></i></a>
+						</ul>
+
+						<div class="mobile">
+							<!-- <a class="bag"><i class="fa fa-shopping-bag"></i></a> -->
+							<i id="hambar" class="fa fa-bars"></i>
+						</div>
+					</div>
+				</a>
+			</section>
+
+			<!-- side Banner -->
+			<!-- <section class="banner-offer"> -->
+			<div class="side-banner">
+				<div class="left-side">
+					<div class="flat-offer">
+						<i class="fa-solid fa-arrow-left"></i>FLAT ₹20% OFF
+					</div>
+				</div>
+				<div class="right-side">
+					<div class="upper-banner">
+						<div class="banner-offer">
+							<p>Avail Flat</p>
+							<h1
+								>₹200 OFF <br />
+								+ FREE SHIPPING</h1
+							>
+							<br />
+							<br />
+							<p>Coupon Code: <span>#TRENDY200</span></p>
+						</div>
+						<div class="banner-img">
+							<img src="./images/bannerimg.webp" />
+							<button class="offer-btn login-user">SIGN UP NOW</button>
+						</div>
+					</div>
+					<div class="down-banner">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="1em"
+							viewBox="0 0 512 512"
+						>
+							<path
+								d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.3-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z"
+							/>
+						</svg>
+
+						<span>Genuine Products</span>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="1em"
+							viewBox="0 0 640 512"
+						>
+							<path
+								d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0h12.6c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7V448c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64V197.7l-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0h12.6z"
+							/>
+						</svg>
+						<span>Try and Buy</span>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="1em"
+							viewBox="0 0 448 512"
+						>
+							<path
+								d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z"
+							/>
+						</svg>
+						<span>Easy Exhanges & Return</span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--  modal  -->
+
+		<div class="login-wrapper">
+			<div id="wrapper">
+				<span class="close-login"><i class="fa-solid fa-xmark"></i></span>
+				<div class="form-box">
+					<h2>Login</h2>
+					<form action="#">
+						<div class="input-box">
+							<span class="icon"><i class="fa-solid fa-envelope"></i></span>
+							<input type="email" placeholder="E-mail" />
+						</div>
+						<div class="input-box">
+							<span class="icon"><i class="fa-solid fa-lock"></i></span>
+							<input type="password" placeholder="Password" />
+						</div>
+						<div class="remember-forgot">
+							<label>
+								<input type="checkbox" />
+								Remember me
+							</label>
+							<a href="#">Forgot Password?</a>
+						</div>
+						<button type="submit" class="submit-btn">Login</button>
+						<div class="login-registration">
+							<p>Don't have an account?</p>
+							<a href="#" register-link>Register</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- Hero Section -->
+		<section id="hero-section">
+			<h1>Trade-in-offer</h1>
+			<h2>DEALS ON TOP BRANDS</h2>
+			<h4>BEST OF EXCLUSIVE BRANDS</h4>
+			<p
+				>Shop more with coupons & upto
+				<span style="color: rgb(222, 29, 29); font-size: 20px; font-weight: 600"
+					>70% off!</span
+				></p
+			>
+			<a href="shop.html">
+				<button class="hero-section-btn">Shop Now</button></a
+			>
+		</section>
+
+		<!-- Features Section -->
+
+		<section id="feature" class="section-p1">
+			<div class="fe-box">
+				<img src="./images/f1.png" alt="" />
+				<h6>Free Shipping</h6>
+			</div>
+
+			<div class="fe-box">
+				<img src="./images/f2.png" alt="" />
+				<h6>Online Order</h6>
+			</div>
+
+			<div class="fe-box">
+				<img src="./images/f3.png" alt="" />
+				<h6>Save Money</h6>
+			</div>
+
+			<div class="fe-box">
+				<img src="./images/f4.png" alt="" />
+				<h6>Promotions</h6>
+			</div>
+
+			<div class="fe-box">
+				<img src="./images/f5.png" alt="" />
+				<h6>Happy Sell</h6>
+			</div>
+
+			<div class="fe-box">
+				<img src="./images/f6.png" alt="" />
+				<h6>24/7 Support</h6>
+			</div>
+		</section>
+
+		<!-- Products Section -->
+
+		<section id="product-1" class="section-p1">
+			<div>
+				<h2>Featured Products</h2>
+				<p>New Summer Collection</p>
+			</div>
+
+			<div class="pro-container" id="product-detail">
+				<!-- Displayin the products using js -->
+
+				<!--<div class="pro">
+                <img src="./images/p1.jpg" />
+
+                <div class="desc">
+                  <span>Zara</span>
+                  <h5>Cartoon Astronaut Shirts</h5>
+
+                  <div class="star">
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+
+                      <h4>&#8377; 1099</h4>
+                    </div>
+                    <div>
+                      <a class="cart" href="#"><i class="fa fa-cart-shopping"></i></a>
+                    </div>
+                  </div>
+                </div>
+               </div>-->
+			</div>
+		</section>
+
+		<!-- Banner Section -->
+
+		<section id="banner" class="section-m1">
+			<h4>Repair Services</h4>
+			<h2>Upto to <span>70% Off</span> on All t-shirts & Accessories </h2>
+			<button class="normal"> Explore More</button>
+		</section>
+
+		<!-- New-Arrivals Section -->
+
+		<section id="product-1" class="section-p1">
+			<div>
+				<h2>New Arrivals</h2>
+				<p>Grab the new Ones</p>
+			</div>
+
+			<div class="pro-container" id="itemDesc">
+				<!-- Done Using JS -->
+
+				<!--<div class="pro">
+              <img src="./images/n1.jpg" />
+
+              <div class="desc">
+                <span>Zara</span>
+                <h5>Half-Collared Shirts</h5>
+
+                <div class="star">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                    <h4>&#8377; 1099</h4>
+                  </div>
+                  <div>
+                    <a class="cart" href="#"><i class="fa fa-cart-shopping"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+			</div>
+		</section>
+
+		<section id="banner-3">
+			<div class="banner-box ban-1">
+				<h2>SEASON SALE</h2>
+				<h3>ACCESSORIES 50% OFF</h3>
+			</div>
+			<div class="banner-box ban-2">
+				<h2>SEASON SALE</h2>
+				<h3>Winter Collection 50% OFF</h3>
+			</div>
+			<div class="banner-box ban-3">
+				<h2>SEASON SALE</h2>
+				<h3>Women Collection 50% OFF</h3>
+			</div>
+		</section>
+
+		<!-- Newletter -->
+
+		<section id="newsletter" classs="section-p1">
+			<div class="newtext">
+				<h4>Sign up for Newsletter </h4>
+				<p
+					>Get E-mail updates about our latest shop and
+					<span>special-offers</span></p
+				>
+			</div>
+			<div class="form">
+				<input type="text" placeholder="e-mail..." />
+				<button class="normal">Sign up </button>
+			</div>
+		</section>
+
+		<footer class="section-p1">
+			<div class="col col-1">
+				<span>TRENDY THREADS</span>
+				<h4>Contacts</h4>
+				<p
+					><strong>Address:</strong> 6, Neelkant Apt, Amar Mahal, Tilak Nagar,
+					Chembur, Mumbai</p
+				>
+				<p style="font-weight: 600"
+					><strong>Phone: </strong>+01 2222 333/ (+91) 9123334455
+				</p>
+				<div class="follow">
+					<h4>Follow Us</h4>
+					<div class="icons">
+						<i class="fa-brands fa-facebook-f"></i>
+						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-pinterest"></i>
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-brands fa-google"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="col col-2">
+				<h4>About</h4>
+				<a href="#">About</a>
+				<a href="#">Delivery Information</a>
+				<a href="#">Privacy Policy</a>
+				<a href="#">Terms & Condition</a>
+				<a href="#">Contact Us</a>
+			</div>
+
+			<div class="col col-3">
+				<h4>Account</h4>
+				<a href="#">Sign In</a>
+				<a href="#">View Cart</a>
+				<a href="#">My WishList</a>
+				<a href="#">Track my Order</a>
+				<a href="#">Help</a>
+			</div>
+
+			<div class="col col-4 install">
+				<h4>Install App</h4>
+				<p style="font-size: 14px">From App Store & Google Play</p>
+				<div class="row">
+					<img src="./images/play.jpg" />
+					<img src="./images/app.jpg" />
+				</div>
+				<p>Secured Payment Gateways</p>
+				<img class="payment" src="./images/payment.webp" />
+			</div>
+
+			<div class="copyright">
+				<p> &copy; 2023, Trendy's all rights are reserved </p>
+			</div>
+		</footer>
+	</body>
+	<script src="main.js"></script>
+</html>
